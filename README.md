@@ -1,5 +1,5 @@
 # codefundo
-we will predict hurricane's and their intensity using data from satellite images and pressure data of areas above water bodies using a deep neural network.
+We will predict hurricane's and their intensity using data from satellite images and pressure data of areas above water bodies using a deep neural network.
 
 First we will remove noise from the image because their might many local disturbances adding to the noise. There might be interference to be  Then we will sharpen the image using variuos LoG filters. We will use Convolution neural networks followed by multiple hidden layers. 
 For training our network we will take images from previous hurricanes some 'k' days before the actual hurricane hit, and we'll try to predict the no. of days before the hurricane would  hit. 
